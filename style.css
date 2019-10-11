@@ -1,0 +1,8 @@
+.top-image {
+    background-image: url("./market-img.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: relative;   */
+  } 
