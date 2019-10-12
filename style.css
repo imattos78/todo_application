@@ -1,4 +1,5 @@
 
+
 .top-image {
   display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
   display: -moz-box;    /* OLD - Firefox 19- (buggy but mostly works) */
@@ -18,13 +19,35 @@
   background-position: center;
   background-repeat: no-repeat;
    
-  } 
+  }
+  
   .logo{
-    max-width: 25%;
+    max-width: 40%;
     height: auto;
   }
+  
+  .hide{
+    display: none;
+  }
+  .button-img{
+    padding: 0;
+  }
+  .button-input{
+    height: 45px;
+    width: 45px;
+    padding:0px
+  }
+  .button-input:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .add-icon {
+   max-width:100%;
+  }
   .input-bar{
-    width: 30%;
+    width: 62%;
+    padding-left: 8px;
   }
   .title{
     padding-top: 10px;
@@ -65,20 +88,20 @@
   .prod-to-buy{
     background-color:  #ffda5f;
     border-left: 5px  #ffcc25 solid;
-    padding: 6px 8px;
-    width: 30%;
+    padding: 5px 10px;
+    width: 55%;
 
   }
   .prod-delete{
     background-color:  #fcedbd;
     border-left: 5px  #ffd139 solid;
     padding: 6px 8px;
-    width: 30%;
+    width: 50%;
     
     text-decoration: line-through;
 
   }
-  /* footer {
+  footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -86,4 +109,26 @@
     background-color: #4CAF50;
     color: white;
     text-align: center;
- } */
+ } 
+ @media only screen and (min-width:768px){
+  .hide{
+    display: block;
+  }
+  .show{
+    display: none;
+  }
+  .logo{
+    max-width: 20%;
+    height: auto;
+  }
+  .input-bar{
+    width: 40%;
+  }
+  .prod-to-buy{
+    width: 40%;
+  }
+  .prod-delete{
+    width: 40%;
+  }
+ 
+}
