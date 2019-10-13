@@ -25,33 +25,56 @@
     max-width: 40%;
     height: auto;
   }
-  
-  .hide{
-    display: none;
-  }
-  .button-img{
-    padding: 0;
-  }
-  .button-input{
-    height: 45px;
-    width: 45px;
-    padding:0px
-  }
-  .button-input:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
+  /* Title */
+  .title{
+    padding-top: 10px;
   }
-  
-  .add-icon {
-   max-width:100%;
+  .title,.input{
+    display: flex;
+    top: 15%;
+    justify-content: center;
   }
+  /* Input Bar */
   .input-bar{
     width: 62%;
     padding-left: 8px;
   }
-  .title{
-    padding-top: 10px;
+  /* Intro Component */
+  .intro-component{
+    display: flex;
+    justify-content: center;
+    padding-right: 16%;
   }
+  /* Small Buttons */
+  .buttons{
+    border: none;
+    transition: 0.7s;
+  }
+  .buttons:focus{
+    outline: 0;
+  }
+  .buttons:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 1.2em;
+  }
+  .hide{
+    display: none;
+  }
+  
+  .add-icon, .check-icon {
+    color: #4CAF50;
+    font-size: 2em;
+    
+   }
+
+   .cruz-icon, .trash-icon{
+    color: rgb(248, 2, 2);
+    font-size: 2em;
+    
+   }
+   
+  /* Big Buttons */
   .button{
     padding-left: 10px;
   }
@@ -59,48 +82,49 @@
     padding: 0.375rem 2.0rem;
     color: #ffff;
     border-radius: 4px;
-    background-color: #4CAF50
+    background-color: #4CAF50;
+    transition: 0.5s;
+  }
+  .add-button:focus{
+    outline: 0;
   }
   .add-button:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 0.4rem 2.3rem;
 
   }
   .del-button{
     padding: 0.375rem 2.0rem;
     color: #ffff;
     border-radius: 4px;
-    background-color: rgb(243, 8, 8)
+    background-color: rgb(243, 8, 8);
+    transition: 0.5s;
+  }
+  .del-button:focus{
+    outline: 0;
   }
   .del-button:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 0.4rem 2.3rem;
 
   }
-  .title,.input{
-    display: flex;
-    top: 15%;
-    justify-content: center;
-  }
-  .dynamicNum{
-    display: flex;
-    justify-content: center;
-    padding-right: 16%;
-  }
+/* Output List */
   .prod-to-buy{
     background-color:  #ffda5f;
     border-left: 5px  #ffcc25 solid;
     padding: 5px 10px;
     width: 55%;
-
   }
+  /* Deleted List */
   .prod-delete{
     background-color:  #fcedbd;
     border-left: 5px  #ffd139 solid;
     padding: 6px 8px;
     width: 50%;
-    
     text-decoration: line-through;
 
   }
+  /* Footer */
   footer {
     position: fixed;
     left: 0;
