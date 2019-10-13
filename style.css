@@ -90,10 +90,11 @@
   }
   .add-button:focus{
     outline: 0;
+    padding: 0.4rem 2.3rem;
   }
   .add-button:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    padding: 0.4rem 2.3rem;
+    
 
   }
   .del-button{
@@ -106,10 +107,11 @@
   }
   .del-button:focus{
     outline: 0;
+    padding: 0.4rem 2.3rem;
   }
   .del-button:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    padding: 0.4rem 2.3rem;
+   
 
   }
 /* Output List */
