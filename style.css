@@ -49,6 +49,7 @@
   /* Small Buttons */
   .buttons{
     border: none;
+    background: none;
     transition: 0.7s;
   }
   .buttons:focus{
